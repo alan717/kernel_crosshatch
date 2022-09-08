@@ -1,7 +1,0 @@
-MODULE_NAME := rwProcMem37
-RESMAN_CORE_OBJS:=sys.o
-RESMAN_GLUE_OBJS:=
-
-$(MODULE_NAME)-objs:=$(RESMAN_GLUE_OBJS) $(RESMAN_CORE_OBJS)
-obj-m := rwProcMem37.o
-
